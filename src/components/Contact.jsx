@@ -29,7 +29,7 @@ export default function Contact() {
 
         {/* Call */}
         <a
-          href="tel:+250735 8100 44"
+          href="tel:+25078 577 0899"
           className="bg-yellow-600 text-white px-5 py-2 rounded-full shadow"
         >
           Call Now

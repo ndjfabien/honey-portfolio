@@ -1,6 +1,6 @@
 const products = [
   {
-    name: "Pure Honey (1 Litre)",
+    name: "🍯Pure Honey (1 Litre)",
     price: "10,000 RWF",
     desc: "Ubuki bw’umwimerere, busukuye kandi bufite intungamubiri"
   },
@@ -10,22 +10,22 @@ const products = [
     desc: "Igice cy’ubuki bwiza ku giciro gito(A portion of good honey at a low price.)"
   },
   {
-    name: "Honey Comb (Ibido)",
+    name: "🍯Honey Comb (Ibido)",
     price: "12,0000RWF",
     desc: "Ubuki buri mu bido (natural comb honey)"
   },
   {
-    name: "Beeswax (Cire)",
+    name: "🍯Beeswax (Cire)",
     price: "7,000 RWF",
     desc: "Ikoreshwa mu mavuta, cream n’imiti karemano"
   },
   {
-    name: "Propolis",
+    name: "🍯Propolis",
     price: "8,000 RWF",
     desc: "Ikoreshwa mu kuvura no kongera immunity"
   },
   {
-    name: "Bee Pollen",
+    name: "🍯Bee Pollen",
     price: "6,000 RWF",
     desc: "Intungamubiri zifasha imbaraga n’ubuzima"
   }

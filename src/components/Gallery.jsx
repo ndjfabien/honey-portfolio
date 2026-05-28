@@ -3,7 +3,11 @@ export default function Gallery() {
     <section id="gallery" className="p-10">
 
       <h2
-        onClick={() => window.location.href = "#Honey"}
+        onClick={() =>
+          document
+            .getElementById("gallery")
+            ?.scrollIntoView({ behavior: "smooth" })
+        }
         className="text-3xl font-bold text-yellow-700 cursor-pointer hover:underline"
       >
         Gallery

@@ -3,8 +3,7 @@ import { useState, useEffect } from "react";
 export default function About() {
   const [lang, setLang] = useState("rw");
 
-  // Videos (ushobora gusimbuza izi zawe)
-const videos = ["/rr.mp4", "/cc.mp4", "/dad.mp4", "/nn.mp4"];
+  const videos = ["/rr.mp4", "/cc.mp4", "/dad.mp4", "/nn.mp4"];
   const [currentVideo, setCurrentVideo] = useState(0);
 
   useEffect(() => {
@@ -16,8 +15,10 @@ const videos = ["/rr.mp4", "/cc.mp4", "/dad.mp4", "/nn.mp4"];
   }, []);
 
   return (
-    <section className="relative p-10 overflow-hidden min-h-screen flex items-center">
-
+    <section
+      id="about"
+      className="relative p-10 overflow-hidden min-h-screen flex items-center"
+    >
       {/* BACKGROUND VIDEO (changing) */}
       <video
         key={currentVideo}
